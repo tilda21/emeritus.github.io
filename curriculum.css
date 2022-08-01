@@ -1,0 +1,302 @@
+html {
+    font-family: 'Josefin Slab', serif; 
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+body {
+    margin: auto;
+    font-size: 20px;
+    line-height: 45px;
+    background-color: #ff575731;
+
+}
+
+.margin{
+    margin: 70px 30px 0px 30px;
+}
+
+h1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+h2 {
+    font-family: 'Amatic SC', cursive;
+    margin: 0px;
+    color: #ff5757;
+    font-size: 40px;
+    text-align: center;
+}
+img {
+    border-radius: 3px;
+}
+.btn {
+    background-color: #ff5757;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.btn:hover {
+    background-color: #f78989;
+    box-shadow:  4px 8px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.purple {
+    color: #9500ff;
+}
+.blue {
+    color: #5271ff;
+}
+.yellow {
+    color: #FFD700;
+}
+.green {
+    color: #569a12;
+}
+
+
+
+/*Menu bar*/
+#menu {
+    list-style-type: none;/*takes bullet points from the list*/
+    margin: 0px;
+    text-align: center;/*alinha a lista no meio da pagina*/
+    font-size: 40px;
+    background-color: #ff5757;
+    width: 100vw;  
+    font-family: 'Amatic SC', cursive;
+    position: fixed;
+    top: -50px;
+    display: block;
+    transition: top 0.3s;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    display:inline-block;/*dispõe o texto em linha*/
+    width: 15%;
+}
+li.hoverEffect:hover {
+    background-color: #f78989;
+}
+li a {
+    color: whitesmoke;
+    text-align: center;/*alinha cada topico no meio do seu espaço*/
+    text-decoration: none;/*retira a linha da hiperligaçao debaixo da palavra*/
+}
+
+
+/*Homepage*/
+#intro {
+    display: block;
+    margin: 0px;
+    height: 100%;
+}
+
+#intro12 {
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+}
+#intro2 {
+    background-color: rgba(245,245,245,0.4);
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    color: #5271ff;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+}
+#intro2 p {
+    margin: 0px;
+}
+/*Logo Matilde*/
+img#mainlogo {
+    display: block;
+    border-radius: 50px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+
+/*Skills page*/
+#pgSk {
+    height: 90%;
+}
+.sk {
+    padding-bottom: 20px;
+}
+
+.container {
+    height: 60px;
+    padding: 10px;
+}
+
+.skills {
+    height: 60px;
+    text-align: right;
+    color: white;
+    border-radius: 3px;
+}
+
+#html {width: 0%; background-color: rgb(86,154,18, 0.7);}
+#css {width: 0%; background-color: rgb(255,215,0, 0.7);}
+#js {width: 0%; background-color: rgb(82,113,255, 0.7);}
+#react {width: 0%; background-color: rgb(149,0,255, 0.6);}
+#node {width: 0%; background-color: rgb(255,0,106, 0.6);}
+
+.minilogoB {
+    width: 40px;
+    display: block;
+    text-align: right;
+    margin-left: auto;
+    padding: 3px 10px;
+}
+.minilogoS {
+    width: 40px;
+    display: block;
+    text-align: right;
+    margin-left: auto;
+    padding: 10px;
+}
+.container .tooltiptext {
+    visibility: hidden;
+    width: 160px;
+    
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px 0;
+    font-weight: bold;
+}
+.htmlSK {
+     /* Position the tooltip */
+     position: absolute;
+     top: 800px;
+     left: 10%;
+     color: rgb(86,154,18);
+     
+  }
+.cssSK {
+      /* Position the tooltip */
+     position: absolute;
+     top: 880px;
+     left: 10%;
+     color: rgb(163, 139, 0);
+  
+  }
+.jsSK {
+    /* Position the tooltip */
+   position: absolute;
+   top: 960px;
+   left: 10%;
+   color:rgb(82,113,255);
+ 
+}
+.reactSK {
+    /* Position the tooltip */
+   position: absolute;
+   top: 1040px;
+   left: 10%;
+   color:rgb(149,0,255);
+
+}
+.nodeSK {
+    /* Position the tooltip */
+   position: absolute;
+   top: 1120px;
+   left: 10%;
+   color: rgb(255,0,106);
+  
+} 
+.container:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+
+/*Work page*/
+#pgMyWk {
+    height: 70%;
+}
+.imgcenter {
+    margin: auto;
+    display: block;
+    text-align: center; 
+}
+.workIMGsize {
+    width: 260px;
+}
+.workIMGsize:hover {
+    box-shadow:  4px 8px 8px 4px rgba(0, 0, 0, 0.2);
+}
+.align {
+    text-align: justify;
+}
+.centerimg {
+    width: 300px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.cvClick {
+    margin: 0px auto;
+    color: #ff5757; 
+}
+.cvClick:hover {
+    color: #f78989;
+    
+}
+.htmlcolor {background-color: rgb(86,154,18, 0.7);}
+.csscolor {background-color: rgb(255,215,0, 0.7);}
+.jscolor {background-color: rgb(82,113,255, 0.7);}
+.reactcolor {background-color: rgb(149,0,255, 0.6);}
+.nodecolor {background-color: rgb(255,0,106, 0.6);}
+
+
+
+
+/*CV page*/
+#pgCurr {
+    height: 100%;
+}
+.legenda {
+    font-size: 10px;
+    line-height: 10px;
+}
+.currIMGsize {
+    width: 300px;
+}
+
+
+
+/*About me page*/
+#pgAbMe {
+    height: 100%;
+    color: black;
+    
+}
+.pgAbMePhoto {
+    margin: 0px auto 0px auto; 
+    width: 350px;
+    height: auto;
+    padding: 30px;
+    border-radius: 3px;
+}
+
+.justifyText {
+    text-align: justify;
+    text-justify: inter-word;
+}

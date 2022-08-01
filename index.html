@@ -1,4 +1,187 @@
 <!DOCTYPE html>
-    <h1>Madeira Island Portfolio</h1>
-    <img src="./madeira.jpeg" />
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>My Portfolio</title>
+
+        <link rel="stylesheet" href="curriculum.css">
+        <link rel="stylesheet" href="curriculumMobile.css">
+        <link rel="stylesheet" href="scroll.css">
+        <link rel="stylesheet" href="flexbox.css">
+        <link rel="stylesheet" href="puzzle.css">
+        <link href="https://fonts.googleapis.com/css?family=Yantramanav|Amatic+SC|Josefin+Slab&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="functions.js"></script>
+        <script src="progressBar.js"></script>
+    </head>
+
+    <body>
+        <div id="menu">
+            <ul>
+                <li class="hoverEffect"><a href="#Home"> HOME</a></li>
+                <li class="hoverEffect"><a href="#Sk"> SKILLS </a></li>
+                <li class="hoverEffect"><a href="#MyWk"> MY WORK </a></li>
+                <li class="hoverEffect"><a href="#Curr"> CURRICULUM </a></li>
+                <li class="hoverEffect"><a href="#AbMe"> ABOUT ME</a></li>
+            </ul>
+        </div>
+
+        <div id="Home"></div>
+        <section id="intro" class="margin" >
+            <div >
+                <div>
+                    <img id="mainlogo" src="https://i.ibb.co/HXyYvv0/circle-cropped-1.png" alt="logo">
+                </div>
+
+                <div onclick="move()" class="center marginTop2">
+                    <a href="#Sk" ><i class="fa fa-angle-down styles"></i></a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <div  id="Sk"></div>
+        <section id="pgSk">
+            <div class="margin">
+                <h2 class="sk">Skills</h2>
+                <div class="container">
+                    <div id="html" class="skills"><img class="minilogoB" src="https://i.ibb.co/X7wTB0P/html.png"></div>
+                    <span class="tooltiptext htmlSK">HTML5 - 90%</span>
+                </div>
+
+                <div class="container">
+                    <div id="css" class="skills"><img class="minilogoB" src="https://i.ibb.co/tpcDJBv/css.png"></div>
+                    <span class="tooltiptext cssSK">CSS3 - 85%</span>
+                </div>
+
+                <div class="container">
+                    <div id="js" class="skills"><img class="minilogoB" src="https://i.ibb.co/jJyF7T2/js.png"></div>
+                    <span class="tooltiptext jsSK">Javascript - 80%</span>
+                </div>
+
+                <div class="container">
+                    <div id="react" class="skills"><img class="minilogoS" src="https://i.ibb.co/LY1GFYf/react.png"></div>
+                    <span class="tooltiptext reactSK">ReactJS - 85%</span>
+                </div>
+
+                <div class="container">
+                    <div id="node" class="skills"><img class="minilogoS" src="https://i.ibb.co/Qdk8Whw/nodejs.png"></div>
+                    <span class="tooltiptext nodeSK">NodeJS - 75%</span>
+                </div>
+
+<!--            <button class="center btn" onclick="move()">Click if you can't see the graphic</button>
+ -->
+                <div class="center marginTop2">
+                    <a href="#MyWk"><i class="fa fa-angle-down styles"></i></a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <div id="MyWk"></div>
+        <section id="pgMyWk">
+
+            <div class="margin">
+                <h2>My Work</h2>
+
+                <!-- <div>
+                    <canvas id="canvas" class="puzzle center"></canvas>
+                </div> -->
+                <div class="row marginTop">
+                    <div class="flex7 imgcenter">
+                        <a class="centerimg" class="imgcenter" href="https://spelling-masta.herokuapp.com/"><img class="workIMGsize" src="https://i.ibb.co/z8VVzZM/Spell-Title.png"></a>
+                    </div>
+                    <div class="flex7">
+                        <p class="align">The Spelling Masta is a spelling web app builded to help practice english in fun way.</p>
+                    </div>
+                    <div class="flex7 imgcenter">
+                        <a class="centerimg" href="https://distracted-khorana-cc1867.netlify.com/"><img class="workIMGsize" src="https://i.ibb.co/2qXsLGP/sudoku-Title.png"></a>
+                    </div>
+                    <div class="flex7">
+                        <p class="align">As the name says this web app is a Sudoku Game, but this one has Christmas as the main theme.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="flex7">
+                        <p class="align">Yoder was the result of a 24h Hackathon. Builded as a "Star Wars meets Love" web app, this one was super fun to build.</p>
+                    </div>
+                    <div class="flex7 imgcenter">
+                        <a class="centerimg" href="https://elegant-bartik-6f805c.netlify.com/"><img class="workIMGsize" src="https://i.ibb.co/QHn1Yty/yodertitle.png"></a>
+                    </div>
+                    <div class="flex7">
+                        <p class="align">This is the most important project I've worked on. A website created for an accounting services company, HMFinance.</p>
+                    </div>
+                    <div class="flex7 imgcenter">
+                        <a class="centerimg" href=""><img class="workIMGsize" src="https://i.ibb.co/jrGXNNF/hmfinance.png"></a>
+                    </div>
+                </div>
+
+                <div class="center marginTop2">
+                    <a href="#Curr"><i class="fa fa-angle-down styles"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <div id="Curr"></div>
+        <section id="pgCurr">
+
+            <div class="margin">
+                <h2>Curriculum</h2>
+                <br>
+                <div class="imgcenter">
+                    <a class="centerimg" href="https://drive.google.com/file/d/1GVRE1INe8rTH3GPa1yMdvDtwM9UWZj85/view?usp=sharing" download="MatildeRibeiroCV">
+                        <img class="currIMGsize" src="https://i.ibb.co/zW3PxKb/Matilde-Ribeiro-Resume.png" alt="Curriculum">
+                        <p class="cvClick"><b>Click to access my Resume</b></p>
+                    </a>
+                </div>
+
+                <div class="center">
+                    <a href="#AbMe"><i class="fa fa-angle-down styles"></i></a>
+                </div>
+            </div>
+        </section>
+
+
+        <div id="AbMe"></div>
+        <section id="pgAbMe">
+
+            <div class="margin">
+                <h2>About Me</h2>
+                <br>
+                <div class="row">
+                    <div class="flex4 justifyText">
+
+                        <p>I have a background in <b>Energy</b> 🔋 ⚡ <b>and Environmental</b> 🍃 🌊 🌞 💦 <b>Engineer</b> 🙆‍ ♀.</p>
+                        <p>My two biggest passions are <b>travelling</b> 🛫 🌍 and playing <b>sports</b> ⚽ 🏋‍ ♀. My latest passion is <b>web development</b> 🌐 and I found it by chance (maybe I'll tell you this story if we ever meet 😏).</p>
+                        <p>I can't live without <b>music</b> 🎧 and a good cup of <b>coffee</b> ☕ in the morning.</p>
+                        <p>I believe the only two things we can trust in the world are Unicorns 🦄 and Computers 💻, the rest is yet to be proved.</p>
+                        <p><b>Of course I'll change the world 💚 ☯.</b></p>
+                    </div>
+
+                    <div class="flex6">
+                        <img  class="pgAbMePhoto" src="https://i.ibb.co/TMhxVwV/output-onlinejpgtools.png" alt="photo">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="center flex1">
+                        <a href="#Home"><i class="fa fa-angle-up stylesrev"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            window.addEventListener('DOMContentLoaded', (event) => {
+                move();
+            });
+        </script>
+    </body>
 </html>

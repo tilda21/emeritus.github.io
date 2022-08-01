@@ -1,0 +1,350 @@
+@media screen and (max-width: 370px) {
+    img#mainlogo {
+        margin-top: 20px;
+        width: 290px;
+        padding: 10px;
+    }
+
+    body {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    /* no menu bar */
+    #menu {
+        display: none;
+    }
+    /* scroll arrow size */
+    .styles {
+        font-size: 55px !important;
+    }
+    .stylesrev {
+        font-size: 55px  !important;
+    }
+    
+    /* skills page - labels position */
+    .htmlSK {
+        top: 553px;
+        left: 10%;
+        background: none;
+    }
+   .cssSK {
+        top: 628px;
+        left: 10%;
+        background: none;
+    }
+   .jsSK {
+        top: 703px;
+        left: 10%;
+        background: none;
+    }
+   .reactSK {
+        top: 780px;
+        left: 10%;
+        background: none;
+    }
+   .nodeSK {
+        top: 855px;
+        left: 10%;
+        background: none;
+    } 
+   .container .tooltiptext {
+        visibility: visible;
+    }
+    .container {
+        height: 60px;
+        padding: 8px;
+    }
+
+    /* my  work section */
+    div .flex7 {
+        width: 100vw;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .workIMGsize {
+        width: 230px;
+    }
+    .centerimg {
+        width: 250px;
+    }
+    .currIMGsize {
+        width: 230px;
+    }
+
+
+    /*About me page*/
+    .pgAbMePhoto {
+        width: 200px;
+        height: auto;
+        padding: 30px;
+
+    }
+    .flex6 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) and (min-width: 371px) {
+    img#mainlogo {
+        margin-top: 20px;
+        width: 350px;
+        padding: 10px;
+    }
+
+    body {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    /* no menu bar */
+    #menu {
+        display: none;
+    }
+    /* scroll arrow size */
+    .styles {
+        font-size: 55px !important;
+    }
+    .stylesrev {
+        font-size: 55px  !important;
+    }
+    
+    /* skills page - labels position */
+    .htmlSK {
+        top: 613px;
+        left: 10%;
+        background: none;
+    }
+   .cssSK {
+        top: 693px;
+        left: 10%;
+        background: none;
+    }
+   .jsSK {
+        top: 773px;
+        left: 10%;
+        background: none;
+    }
+   .reactSK {
+        top: 853px;
+        left: 10%;
+        background: none;
+    }
+   .nodeSK {
+        top: 933px;
+        left: 10%;
+        background: none;
+    } 
+   .container .tooltiptext {
+        visibility: visible;
+    }
+
+    /* my  work section */
+    div .flex7 {
+        width: 100vw;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .workIMGsize {
+        width: 250px;
+    }
+
+    /*About me page*/
+    .pgAbMePhoto {
+        width: 200px;
+        height: auto;
+        padding: 30px;
+
+    }
+    .flex6 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 501px) {
+    img#mainlogo {
+        margin-top: 20px;
+        width: 500px;
+        padding: 10px;
+    }
+
+    body {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    /* no menu bar */
+    #menu {
+        display: none;
+    }
+    /* scroll arrow size */
+    .styles {
+        font-size: 55px !important;
+    }
+    .stylesrev {
+        font-size: 55px  !important;
+    }
+    
+    /* skills page - labels position */
+    .htmlSK {
+        top: 765px;
+        left: 10%;
+        background: none;
+    }
+   .cssSK {
+        top: 845px;
+        left: 10%;
+        background: none;
+    }
+   .jsSK {
+        top: 925px;
+        left: 10%;
+        background: none;
+    }
+   .reactSK {
+        top: 1005px;
+        left: 10%;
+        background: none;
+    }
+   .nodeSK {
+        top: 1085px;
+        left: 10%;
+        background: none;
+    } 
+   .container .tooltiptext {
+        visibility: visible;
+    }
+
+    /* my  work section */
+    div .flex7 {
+        width: 100vw;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .workIMGsize {
+        width: 300px;
+    }
+
+    /*About me page*/
+    .pgAbMePhoto {
+        width: 200px;
+        height: auto;
+        padding: 30px;
+
+    }
+    .flex6 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 850px) and (min-width: 601px) {
+    #menu {
+        font-size: 30px;
+    }
+    div .flex7 {
+        width: 50%;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .workIMGsize {
+        width: 250px;
+    }
+    .currIMGsize {
+        width: 260px;
+    }
+
+    /* skills page - labels position */
+    .htmlSK {
+        top: 803px;
+        left: 10%;
+        background: none;
+    }
+   .cssSK {
+        top: 883px;
+        left: 10%;
+        background: none;
+    }
+   .jsSK {
+        top: 963px;
+        left: 10%;
+        background: none;
+    }
+   .reactSK {
+        top: 1043px;
+        left: 10%;
+        background: none;
+    }
+   .nodeSK {
+        top: 1123px;
+        left: 10%;
+        background: none;
+    } 
+   .container .tooltiptext {
+        visibility: visible;
+    }
+    
+    .flex6 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 851px) {
+    #menu {
+        font-size: 30px;
+    }
+    div .flex7 {
+        width: 50%;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .workIMGsize {
+        width: 320px;
+    }
+
+    /* skills page - labels position */
+    .htmlSK {
+        top: 803px;
+        left: 10%;
+        background: none;
+    }
+   .cssSK {
+        top: 883px;
+        left: 10%;
+        background: none;
+    }
+   .jsSK {
+        top: 963px;
+        left: 10%;
+        background: none;
+    }
+   .reactSK {
+        top: 1043px;
+        left: 10%;
+        background: none;
+    }
+   .nodeSK {
+        top: 1123px;
+        left: 10%;
+        background: none;
+    } 
+   .container .tooltiptext {
+        visibility: visible;
+    }
+    
+    .flex6 {
+        width: 100%;
+        text-align: center;
+    }
+}

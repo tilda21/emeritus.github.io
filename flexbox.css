@@ -1,0 +1,29 @@
+.flex1 {
+    width: 100%;
+}
+.flex2 {
+    width: 87,5%;
+}
+.flex3 {
+    width: 75%;
+}
+.flex4 {
+    width: 62,5%;
+}
+.flex5 {
+    width: 50%;
+}
+.flex6 {
+    width: 37,5%;
+}
+.flex7 {
+    width: 25%;
+}
+.flex8 {
+    width: 12,5%;
+}
+
+.row {
+    display: flex;
+   
+}

@@ -1,0 +1,62 @@
+.center {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.styles {
+    font-size: 65px !important;
+    color: #ff5757;
+    -webkit-animation-timing-function: linear;/* Safari 4.0 - 8.0 */
+    animation-timing-function: linear;
+    position: relative;
+    -webkit-animation: move 1s infinite; /* Safari 4.0 - 8.0 */
+    animation: move 1s infinite;
+}
+.stylesrev {
+    font-size: 65px  !important;
+    color: #ff5757;
+    -webkit-animation-timing-function: linear;/* Safari 4.0 - 8.0 */
+    animation-timing-function: linear;
+    position: relative;
+    -webkit-animation: moverev 1s infinite; /* Safari 4.0 - 8.0 */
+    animation: moverev 1s infinite;
+}
+
+section a {
+    width: 50px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.styles:hover {
+    color: #ff5755;
+}
+.marginTop {
+    margin-top: 40px;
+}
+.marginTop2 {
+    margin-top: 20px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes move {
+    from {bottom: 15px;}
+    to {bottom: 0px;}
+}
+/* Standard syntax */
+@keyframes move {
+    from {bottom: 15px;}
+    to {bottom: 0px;}
+}
+
+/* reverse */
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes moverev {
+    from {bottom: 0px;}
+    to {bottom: 15px;}
+}
+/* Standard syntax */
+@keyframes moverev {
+    from {bottom: 0px;}
+    to {bottom: 15px;}
+}
